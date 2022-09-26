@@ -1,0 +1,16 @@
+*.json
+test.go
+.vscode/
+bin/
+data/
+
+go.sum
+docker-compose.yml
+
+.idea
+Makefilebak
+task.sh
+test.*
+*.gz
+*.zip
+cache
