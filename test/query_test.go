@@ -1,7 +1,7 @@
 package test
 
 import (
-	"awdb-golang/awdb-golang"
+	"awdb-golang/re_build"
 	"fmt"
 	"log"
 	"net"
@@ -9,6 +9,8 @@ import (
 	"time"
 )
 
+// 3ns
+// redis 30ns
 func TestAvg(t *testing.T) {
 
 	//db, err := awdb.Open("C:/Users/admin/Desktop/allawdb/IP_city_single_WGS84_awdb.awdb")
