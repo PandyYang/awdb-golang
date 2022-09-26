@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./awdb-golang"
+	"awdb-golang/awdb-golang"
 	"fmt"
 	"log"
 	"net"

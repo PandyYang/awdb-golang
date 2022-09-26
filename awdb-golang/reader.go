@@ -16,6 +16,7 @@ const (
 	dataSectionSeparatorSize = 16
 )
 
+// 原数据的开始标记
 var metadataStartMarker = []byte("\xAB\xCD\xEFipplus360.com")
 
 // Reader holds the data corresponding to the aw DB file. Its only public
